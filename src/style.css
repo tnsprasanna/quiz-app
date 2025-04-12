@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button {
+    @apply bg-gray-200 border border-gray-600 rounded hover:bg-gray-300 active:bg-gray-200;
+  }
+
+  .toolBar {
+    @apply w-[80px] p-[1px] font-sans text-[13pt] cursor-pointer disabled:opacity-50 disabled:hover:bg-gray-200 disabled:cursor-default;
+  }
+
+  .fieldContainer {
+    @apply flex items-center gap-[10px] text-[12pt]
+  }
+
+  .text {
+    @apply border border-black box-border text-[12pt] pl-[5px] rounded-sm flex-[3]
+  }
+
+  .labels {
+    @apply flex-1 text-right
+  }
+}
