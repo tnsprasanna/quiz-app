@@ -1,3 +1,2 @@
-CS 349 - A4 Preact
-
-Prasanna Thallapalli (pthallap@uwaterloo.ca)
+CS 349 Quiz App
+- Built with TypeScript, Preact, Tailwind CSS
